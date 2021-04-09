@@ -11,4 +11,8 @@ func main() {
 	a = 44
 
 	fmt.Println(a, *b)
+
+	*b = 31
+
+	fmt.Println(a, *b)
 }
